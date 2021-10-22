@@ -1,0 +1,41 @@
+section {
+    margin: 10% 15%;
+    background: #FFFFFF;
+    padding: 20px
+  }
+  
+  .title {
+    border-bottom: rgba(241, 13, 13, 0.233) solid 8px
+  }
+
+  p.total {
+    font-family: fantasy;
+    font-size: xx-large;
+}
+  
+  body {
+    background-image: url('../image/dandelion-445228_1920.jpg');
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .galerie {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: rgba(182, 174, 174, 0.233) solid 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+  }
+  
+  .fas {
+    margin: 0 20px
+  }
+  
+  .btn {
+    margin: 0 20px;
+    cursor: pointer;
+  }

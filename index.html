@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome links -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- css link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- titre  -->
+    <title>SHOP</title>
+</head>
+<body>
+    <section>
+      <div class="title">
+        <p class="total">Somme des articles : <span id="total">0</span> <span>dt</span></p>
+      </div>
+      <div class="galerie" id="galerie1">
+        <div class="icons">
+          <i class="fas fa-skull" onclick="remove1()"></i>
+          <i class="fas fa-heart" id="heart1" onclick="heart1()"></i>
+        </div>
+        <img class="image" src="image/bovin.jpg" alt="">
+        <span class="product-name"><strong>Bovin</strong><br> 5 Expert</span>
+        <div class="bouton">
+          <span class="btn" onclick="inc1()">+</span>
+          <span class="btn" id="qteProduit1">0</span>
+          <span class="btn"  onclick="dec1()">-</span>
+        </div>
+        <p class="prix-produit"><span id="prix-produit1">0</span> <span>dt</span></p>
+      </div>
+      <div class="galerie" id="galerie2">
+        <div class="icons">
+          <i class="fas fa-skull" onclick="remove2()"></i>
+          <i class="fas fa-heart" id="heart2" onclick="heart2()"></i>
+        </div>
+        <img class="image" src="./image/vache-laitières.jpg" alt="">
+        <span class="product-name"><strong>Vache Laitiere</strong><br> 7 Expert</span>
+        <div class="bouton">
+          <span class="btn" onclick="inc2()">+</span>
+          <span class="btn" id="qteProduit2">0</span>
+          <span class="btn"  onclick="dec2()">-</span>
+        </div>
+        <p class="prix-produit"><span id="prix-produit2">0</span> <span>dt</span></p>
+      </div>
+      <div class="galerie" id="galerie3">
+        <div class="icons">
+          <i class="fas fa-skull" onclick="remove3()"></i>
+          <i class="fas fa-heart" id="heart3" onclick="heart3()"></i>
+        </div>
+        <img class="image" src="image/volailles.jpg" alt="">
+        <span class="product-name"><strong>Volailles</strong><br> Chair 3G</span>
+        <div class="bouton">
+          <span class="btn" onclick="inc3()">+</span>
+          <span class="btn" id="qteProduit3">0</span>
+          <span class="btn"  onclick="dec3()">-</span>
+        </div>
+        <p class="prix-produit"><span id="prix-produit3">0</span> <span>dt</span></p>
+      </div>
+    </section>
+
+
+    <script src="./js/main.js"></script> 
+
+
+  </body>
+</html>
